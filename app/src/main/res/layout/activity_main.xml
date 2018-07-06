@@ -1,0 +1,258 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="12dp"
+    android:paddingBottom="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:inputType="textUri"
+                android:id="@+id/ip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="192.168.4.1"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/port"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="eg:3000" />
+
+            <Button
+                android:id="@+id/lood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" states"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffff"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="18dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dev1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Device 1"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+
+                    />
+
+                <Button
+                    android:id="@+id/on1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ON"
+                    android:layout_centerInParent="true"
+                    android:background="@color/bon"
+                    android:textColor="#ffff"
+                    />
+
+                <Button
+                    android:id="@+id/off1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text=" OFF"
+                    android:background="@color/boff"
+                    android:textColor="#ffff"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="15dp"        >
+
+
+                <TextView
+                    android:id="@+id/dev2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Device 2"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    />
+
+                <Button
+                    android:id="@+id/on2"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ON"
+                    android:background="@color/bon"
+                    android:textColor="#ffff"/>
+
+                <Button
+                    android:id="@+id/off2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text=" OFF"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/boff"
+                    android:textColor="#ffff"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="15dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/dev3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Device 3"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    />
+
+                <Button
+                    android:id="@+id/on3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ON"
+                    android:layout_centerInParent="true"
+                    android:background="@color/bon"
+                    android:textColor="#ffff"
+                    />
+
+                <Button
+                    android:id="@+id/off3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text=" OFF"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/boff"
+                    android:textColor="#ffff"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="15dp"
+                >
+
+                <TextView
+                    android:id="@+id/dev4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Device 4"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    />
+
+                <Button
+                    android:layout_centerInParent="true"
+                    android:id="@+id/on4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ON"
+                    android:background="@color/bon"
+                    android:textColor="#ffff"/>
+
+                <Button
+                    android:id="@+id/off4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text=" OFF"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/boff"
+                    android:textColor="#ffff"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="15dp"
+                >
+
+                <TextView
+                    android:id="@+id/dev5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Device 5"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    />
+
+                <Button
+                    android:id="@+id/on5"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ON"
+                    android:background="@color/bon"
+                    android:textColor="#ffff"/>
+
+                <Button
+                    android:id="@+id/off5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text=" OFF"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/boff"
+                    android:textColor="#ffff"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

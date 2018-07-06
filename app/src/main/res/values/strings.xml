@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_sign_in_short">sign in</string>
+    <string name="error_invalid_password">error invalid password</string>
+    <string name="error_field_required">error field required</string>
+    <string name="error_incorrect_password">error incorrect password</string>
+    <string name="permission_rationale"> permission rationale</string>
+
+</resources>
